@@ -1,1 +1,1 @@
-# rinha-backend-django
+Rinha Backend using Django
