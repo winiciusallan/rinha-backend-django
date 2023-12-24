@@ -1,8 +1,8 @@
 FROM python:3.9.18-bullseye
 
-RUN git clone https://github.com/winiciusallan/rinha-backend-django.git rinha/
+RUN git clone https://github.com/winiciusallan/rinha-backend-django.git/app /rinha
 
-WORKDIR /rinha/app/
+WORKDIR /rinha/app
 
 RUN pip install -r requirements.txt
 
