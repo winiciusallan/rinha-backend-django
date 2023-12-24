@@ -6,5 +6,5 @@ class Pessoa(models.Model):
     apelido = models.CharField(max_length=32)
     nome = models.CharField(max_length=100)
     nascimento = models.DateField()
-    stacka = models.JSONField()
+    stacka = models.JSONField(blank=True)
 

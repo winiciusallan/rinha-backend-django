@@ -7,3 +7,7 @@ from rest_framework.decorators import api_view
 def pessoas(request):
     return Response({"message": "oi"})
 
+@api_view(['GET'])
+def hello(request):
+    return Response({"message": "Hello, world! The application is working"})
+
